@@ -4,32 +4,39 @@
 <head> <! invisible elements stored here>
 	<title>EK Translations</title> <! Webpage title appearing in tab>
 	<style type="text/css"> <! Styling with ruleset method: making declarations in preamble>
-		h3{
-			font-size: 25px;
-		}
-		h2{
-			color: thistle;
-		}
+		h3{font-size: 25px;}
+		h3{color: thistle;}
+		.big{font-size: 35px} <! specifying class>
+		
+		.uppercase{text-transform: uppercase;} <! uppercase font styling>
+	
 	</style> 
 </head>
 <body> <! visible elements stored here> 
 <! select all & press tab to indent>	
 	<h1>EK Translations</h1> <! h creates headings>
 	<p title="Someday in the near feature">Hi! This will one day be my very first website.</p>
+	
 	<a href="https://gmail.com" target="_blank" title="Contact us">Request a translation</a> <! 'a href' = redirecting; 'target=_blank' = redirecting to a new tab; 'title' adds a comment over element when you hover over it>
-	<p>This is how to make elements appear <b>bold</b>.</p>
-	<p>This is how to make elements appear <i>italicized</i>.</p>
-	<p>This is how to change <br> line. </p>
+	
+	<p>This is how to make elements appear <b>bold</b>. This is how to make elements appear <i>italicized</i>. This is how to change <br> line.</p>
+
 	<img src="img/Ekalara.jpeg"> <! Image elements don't have a closing tag; upload an image from saved files>
 	<! img src="https://scontent.fath3-3.fna.fbcdn.net/v/t1.0-9/39755201_2197205497174802_411812115859374080_o.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=U2Kfsj0vOQAAX9YOUy9&_nc_ht=scontent.fath3-3.fna&oh=e76391d6362ce900baea51c1ec267c11&oe=5FFA97F7"> <! upload an image from url>
 
 	<! my url: https://ekalikosto.github.io/testing/test.html>
 
-	<h2 style="font-size: 45px">Styling with inline method</h2> <! styling font size>
-	<h3 style="color: #0D47A1">Styling color method 1.1</h3>
-	<p>Retrieve HEX code for desired color from htmlcolorcodes.com and paste as property value</p>
+	<h2 style="font-size: 45px;" class="uppercase;">Styling with CSS</h2> <! styling with inline method: font size>
+	<p>When specified by both RULESET and INLINE, inline specification takes precedence due to specificity. Within RULESET method, if two styles have the same specificity, the one written last takes precedence.</p>
+	
+	<h3 style="color: #0D47A1;" class="uppercase;">Styling color method 1.1</h3>
+	<p>Retrieve HEX code for desired color from htmlcolorcodes.com and paste as property value.</p>
+	
 	<h3 style="color: indigo">Styling color method 1.2</h3>
-	<p>Retrieve COLOR NAME for desired color from htmlcolorcodes.com and paste as property value</p>
+	<p>Retrieve COLOR NAME for desired color from htmlcolorcodes.com and paste as property value.</p>
+
+	<h3 style="color: darkgreen;" class="big uppercase;">Class specification</h3>
+	<p>Used to specify differences within a set of pre-styles elements by attributing CLASS and a property.</p>
 
 </body>
 </html>
