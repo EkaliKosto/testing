@@ -8,3 +8,5 @@ span{text-transform: uppercase;} <! blank unmarked element by default, defined b
 
 h3 span{text-transform: uppercase;} <! styling specific spans>
 
+.big{font-size: 40px;}
+
